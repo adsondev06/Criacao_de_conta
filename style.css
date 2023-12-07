@@ -23,7 +23,7 @@ body {
   
   fieldset {
     border: none;
-    padding: 2rem 0;
+    padding: 1rem 0;
     border-bottom: 3px solid #3b3b4f;
   }
   
@@ -42,6 +42,11 @@ body {
     margin: 10px 0 0 0;
     width: 100%;
     min-height: 2em;
+    border-radius: 5px;
+  }
+
+  legend{
+    padding-top: 15px;
   }
   
   input, textarea {
